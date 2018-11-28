@@ -50,7 +50,7 @@ spec:
       hostNetwork: true
       containers:
       - name: kube-proxy
-        image: k8s.gcr.io/kube-proxy-amd64:v1.11.0
+        image: k8s.gcr.io/kube-proxy-amd64:v1.12.3
         command:
         - /usr/local/bin/kube-proxy
         - --config=/var/lib/kube-proxy/config.conf
